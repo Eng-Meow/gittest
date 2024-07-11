@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ataa's website</title>
+        <!--Another way to style the page by using (<style>...</style>).
+            To style an (id varible) we have to start with (#name of the id).
+            To style an (class varibles) we have to start with (.name of the class).-->
+        <style>
+           table 
+               {
+                background: rgb(198, 231, 253);
+                 color: rgb(234, 167, 178);
+                 border: 2px solid black;
+                 border-collapse: collapse;
+               }
+               th, td
+               {
+                border: 3px solid black;
+               }
+               #single 
+               {
+                color:aqua;
+               }
+               #single1
+               {
+                color:cadetblue;
+               }
+               .multiple
+               {
+                color:rgb(175, 110, 235);
+               }
+            </style>
+    </head>
+    <body>
+        <h1 style="color: pink; text-align: center;">Welcome to Ataa's website. Nice to meet you guys.</h1> <!--To make the line wide
+                                                                                                                  To style the text.-->
+        <h2 id="single">Today we are going to learn how to develop websits</h2> <!--id: means to give a special name for a variable 
+                                                                                    and we can't use it for more that one vaiable.-->
+        <h3 id="single1">Don't give up, just focous on yourself and you will be a great developer.</h3> <!--We have 6 size of the width(h1,h2,h3,h4,h5,h6)
+                                                                                               and the smallest size is (h6)-->
+        <h3 class="multiple">Now we have 2 types of lists (order list) and (unorder list):</h3> <!--For order list (<ol>...</ol>).
+                                                                                   For unorder list (<ul>...</ul>).-->
+        <h4 class="multiple">order list:</h4> <!--class: means to give a special name for more than one variable.-->
+        <ol>
+            <li>First.</li> <!--list items (<li>...</li>), to write the items of the list-->
+            <li>Second.</li>
+            <li>Third.</li>
+        </ol>        
+        <h4 class="multiple">Unorder list:</h4>
+        <ul>
+            <li>I'm a software engineering student.</li>
+            <li>I'm trying to improve my self.</li>
+        </ul>  
+       <img src="C:\Users\Redro\OneDrive\الصور\Saved Pictures\Suzy.jpg" alt="Suzy" width="400"><!--  To add an image.
+                                                                                 src: means the image that I want it 
+                                                                                 for example (I can copy the path of the image). 
+                                                                                 alt: means an alternitave name of the image(another name to describe the image.)
+                                                                                 width: means to determine the image size.--> 
+
+       <a href="https://youtu.be/dJM5DN1mMls?si=yFbyX72_5n0j3bSh">Click here, turn up the volume and enjoy</a><!--To create a link
+                                                                                                                  for the another website-->
+
+        <table> <!--To create a table.-->
+            <thead> <!--To write the main titles of the table.-->
+                <tr> <!--To write the elements in horizontal line (raws).-->
+                    <th>Ocean &nbsp;</th> <!--We have to use (<th>..</th>) with head table part of table.-->
+                    <th>Average Depth &nbsp;</th> <!--(&nbps) is using to write a space.-->
+                    <th>Maximum Depth &nbsp;</th>
+                </tr>
+            </thead>
+            <tbody> <!--To write the sub-elements or informations.-->
+                <tr>
+                    <td>Pacific Ocean &nbsp;</td> <!--We have to use (<td>..</td>) with body part of table.-->
+                    <td>4.280m &nbsp;</td>
+                    <td>10.911m &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Atlantic Ocean &nbsp;</td>
+                    <td>3.646m &nbsp;</td>
+                    <td>8.486m &nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
